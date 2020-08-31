@@ -1,2 +1,2 @@
-# tarottarot
+# tarotace
 Created with CodeSandbox

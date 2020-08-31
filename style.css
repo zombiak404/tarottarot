@@ -1,0 +1,31 @@
+/* menu STYLES 
+div.scrollmenu {
+  padding-top: 60px;
+  margin-bottom: 10px;
+
+  overflow: auto;
+  white-space: nowrap;
+  transition: 0.6s ease;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #9f5fed;
+} */
+.form {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.tarotcards {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+}

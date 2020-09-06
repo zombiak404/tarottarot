@@ -1,31 +1,92 @@
-/* menu STYLES 
-div.scrollmenu {
-  padding-top: 60px;
-  margin-bottom: 10px;
-
-  overflow: auto;
-  white-space: nowrap;
-  transition: 0.6s ease;
+/* GALLERY STYLES */
+.button1:hover {
+  opacity: 70%;
 }
+.button2:hover {
+  opacity: 70%;
+}
+.button3:hover {
+  opacity: 70%;
+}
+.button1 {
+  background: url(https://image.flaticon.com/icons/svg/1408/1408347.svg)
+    no-repeat;
+  background-size: 240px;
+  cursor: pointer;
+  padding: 120px 120px;
+}
+.button2 {
+  background: url(https://image.flaticon.com/icons/svg/1408/1408347.svg)
+    no-repeat;
+  background-size: 240px;
+  cursor: pointer;
+  padding: 120px 120px;
+}
+.button3 {
+  background: url(https://image.flaticon.com/icons/svg/1408/1408347.svg)
+    no-repeat;
+  background-size: 240px;
+  cursor: pointer;
+  padding: 120px 120px;
+}
+.column1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*.column2 {
+  vertical-align: middle;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.column3 {
+  vertical-align: middle;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;lolol
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}*/
 
-div.scrollmenu a {
-  display: inline-block;
-  color: #000;
+/* balloons */
+.tooltip {
   position: relative;
-  padding: 20px;
-  text-decoration: none;
+  display: inline-block;
 }
 
-div.scrollmenu a:hover {
-  background-color: #9f5fed;
-} */
-.form {
-  display: block;
-  margin-left: 50%;
-  margin-right: 50%;
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #ffff;
+  color: #000;
+  font-family: open sans, sans-serif;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
-.tarotcards {
-  display: block;
-  margin-left: 50%;
-  margin-right: 50%;
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* copyright */
+#copyright {
+  position: relative;
+  text-align: center;
+  font-family: absender, sans-serif;
+  font-size: 18px;
+  margin-bottom: 50px;
+  top: 200px;
 }
